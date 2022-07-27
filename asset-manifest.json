@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/roll-the-dice-game/static/css/main.e4382f81.css",
+    "main.js": "/roll-the-dice-game/static/js/main.9dd6abf8.js",
+    "static/media/Dice-5.png": "/roll-the-dice-game/static/media/Dice-5.626500502af3fc9c5395.png",
+    "static/media/Dice-3.png": "/roll-the-dice-game/static/media/Dice-3.e25bd2d35c937dd1aff2.png",
+    "static/media/Dice-2.png": "/roll-the-dice-game/static/media/Dice-2.92b9be4aa17f37381711.png",
+    "static/media/Dice-6.png": "/roll-the-dice-game/static/media/Dice-6.ba3cf32fbe1fef01401a.png",
+    "static/media/Dice-1.png": "/roll-the-dice-game/static/media/Dice-1.4c167b68a92c62cb2547.png",
+    "static/media/Dice-4.png": "/roll-the-dice-game/static/media/Dice-4.f2bb60b0a44693183c2d.png",
+    "index.html": "/roll-the-dice-game/index.html",
+    "main.e4382f81.css.map": "/roll-the-dice-game/static/css/main.e4382f81.css.map",
+    "main.9dd6abf8.js.map": "/roll-the-dice-game/static/js/main.9dd6abf8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4382f81.css",
+    "static/js/main.9dd6abf8.js"
+  ]
+}
