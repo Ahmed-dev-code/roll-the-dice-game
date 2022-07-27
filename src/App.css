@@ -1,0 +1,144 @@
+:root{
+    --dark-blue: #0B2434;
+    --light-green: #59E391;
+    --dark-blue-light: #2B283A;
+    --dark-blue-light-low-opacity: #4A4E74;
+    --purple: #5035FF;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    /* background-color: var(--dark-blue); */
+    font-family: 'karla', sans-serif;
+    color: var(--dark-blue-light);
+}
+
+.container{
+    width:80%;
+    max-width: 700px;
+    /* padding: 20px 10px; */
+    margin: auto;
+    border-radius:9px ;
+    background-color: white;
+    border: 20px solid var(--dark-blue);
+    border-top: 30px solid var(--dark-blue);
+    border-bottom: 30px solid var(--dark-blue); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    min-width: 100%;
+}
+
+.counter-title{
+    color: black;
+    font-weight: bold;
+}
+.high-score{
+    color: var(--dark-blue-light-low-opacity);
+}
+
+.rules{
+    text-align: center;
+    width: 50%;
+}
+
+p{
+    font-family: 'inter', sans-serif;
+    color: var(--dark-blue-light-low-opacity);
+}
+
+.dice-container{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    gap: 10%;
+    row-gap: 15%;
+}
+
+.dice-face{
+    height: 50px;    
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dice-face img {
+    width: 100%;
+    height: 100%;
+}
+
+.dice-face:hover{
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.7);
+}
+
+.frozen-die{
+    cursor: pointer;
+    background-color: var(--light-green);
+}
+
+
+
+
+.die-num{
+    margin: 0;
+}
+
+button{
+    all: unset;
+    margin: 10% 0 10px 0;
+    padding: .75rem 1.75rem;
+    border-radius: 4px;
+    background-color: var(--purple);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, .6);
+}
+
+
+@media screen and (max-width: 600px){
+    
+    .rules{
+        width: 80%;
+    }
+
+    .rules h1{
+        font-size: 1.25rem;
+    }
+    .rules p{
+        font-size: .70rem;
+    }
+    .die-num{
+        font-size:  1.2rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+    
+    .dice-container{
+        gap: 4%;
+    }
+}
